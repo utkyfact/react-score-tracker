@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <h1 className='font-bold text-4xl text-center my-4'>Scorekeeper</h1>
+      <h1 className='font-bold text-4xl text-center my-4'>Score Tracker</h1>
       <div className='flex gap-10 justify-around py-6'>
         <AddPlayer fetchPlayers={fetchPlayers} />
       </div>
